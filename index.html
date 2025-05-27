@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cards</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+  <script src="/src/index.js"></script>
+</head>
+<body>
+<div class="container">
+  <h1>Генератор карточек заклинаний для Starfinder НРИ</h1>
+  <div class="cards">
+    <div class="card-wrapper">
+      <div class="card card--front">
+        <div class="card__content">
+          <div class="card__content-header">
+            <h2 class="card__content-title js-editable">
+              Перенос заряда
+            </h2>
+            <h3 class="card__content-lvl">
+              <span class="js-editable">0</span> круг
+            </h3>
+            <h4 class="card__content-caster js-editable">
+              Техномант
+            </h4>
+            <div class="card__content-separator"></div>
+          </div>
+          <div class="card__content-body">
+            <p class="card__content-item">
+              Школа:
+              <span class="js-editable">Превращение</span>
+            </p>
+            <p class="card__content-item">
+              Время сотворения:
+              <span class="js-editable">1 осн. действие</span>
+            </p>
+            <p class="card__content-item">
+              Дистанция:
+              <span class="js-editable">касание</span>
+            </p>
+            <p class="card__content-item">
+              Цель:
+              <span class="js-editable">2 однотип. предмета</span>
+            </p>
+            <p class="card__content-item">
+              Длительность:
+              <span class="js-editable">мгновенная</span>
+            </p>
+            <p class="card__content-item">
+              Испытание:
+              <span class="js-editable">Стойкости отменяет (предмет)</span>
+            </p>
+            <p class="card__content-item">
+              Устойчивость к магии:
+              <span class="js-editable">Да (предмет)</span>
+            </p>
+          </div>
+        </div>
+      
+      </div>
+      <div class="card card--back">
+        <div class="card__content">
+          <div class="card__content-body">
+            <p class="card__content-description js-editable">
+              Вы можете перенести любое количество зарядов из одного аккумулятора в другой или из одной энергоячейки в другую. Заряды переносятся только между двумя однотипными предметами (двумя аккумуляторами одной емкости, двумя одинаковыми энергоячейками и т.д.): вы разряжаете один предмет, заряжая другой.
+              
+              Перед сотворением заклинания вы должны указать, сколько зарядов собираетесь переносить. Если заряжаемый предмет неспособен вместить выбранное количество зарядов, он должен пройти испытание Стойкости и при провале получит 1d6 урона электричеством. Заклинание не позволяет определить, насколько разряжен заряжаемый предмет, но вы всегда можете перенести меньше зарядов, чтобы минимизировать риски.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="buttons">
+    <button type="button" class="button js-edit-button" value="edit">Редактировать карточки</button>
+    <button type="button" class="button js-text-button">Подогнать описание заклинания</button>
+    <button type="button" class="button js-copy-button">Добавить карточку</button>
+  </div>
+</div>
+</body>
+</html>
+
+

@@ -1,0 +1,10 @@
+@media print {
+  body {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  h1, .buttons {
+    display: none;
+  }
+}
